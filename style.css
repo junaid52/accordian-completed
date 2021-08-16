@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.outer-container {
+    max-width: 800px;
+    width: 100%;
+    margin: 50px auto;
+}
+.inner-container {
+    border: 1px solid #8a48a5;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.main-heading {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #9b59b6;
+    color: #fff;
+    
+}
+.plus-icon,
+.minus-icon {
+    cursor: pointer;
+}
+.paragraph {
+    padding: 20px;
+
+}
